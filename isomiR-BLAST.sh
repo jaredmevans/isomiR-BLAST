@@ -7,7 +7,7 @@ DESCRIPTION:
     Script to BLAST novel miRNA sequences to a canonical miRNA database in order to identify the potential isomiRs.
 
 USAGE:
-    ./isomiR-BLAST.sh -s sequences_to_blast.txt -o output_directory/ -d blast_database_directory/ -n mirbase19.hsa.mature
+    ./isomiR-BLAST.sh -s sequences_to_blast.txt -o output_directory/ -d blast_database_directory/ -n mirbase19.hsa.mature -r hg19.fa -b ncbi-blast-2.2.30+/bin/blastn
 
 OPTIONS:
     -s    Text file containing the miRNA sequences to BLAST. Should contain 2 tab-seperated columns with a header row.

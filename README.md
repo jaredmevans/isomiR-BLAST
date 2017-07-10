@@ -12,7 +12,7 @@ ncbi-blast-2.2.30+/bin/makeblastdb -in /data5/bsi/refdata/mirbase/v19/mature.hsa
 
 ## USAGE
 ```
-./isomiR-BLAST.sh -s sequences_to_blast.txt -o output_directory/ -d blast_database_directory/ -n mirbase19.hsa.mature
+./isomiR-BLAST.sh -s sequences_to_blast.txt -o output_directory/ -d blast_database_directory/ -n mirbase19.hsa.mature -r hg19.fa -b ncbi-blast-2.2.30+/bin/blastn
 ```
 
 ## OPTIONS
